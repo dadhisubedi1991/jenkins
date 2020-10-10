@@ -1,0 +1,17 @@
+node('master') {
+  stage('Say Hello') {
+    echo 'Hello World'
+  }
+  stage('Build') {
+    echo 'Hello World'
+  }
+  stage('Deploy') {
+    echo 'Hello World'
+  }
+  stage('Code Quality Gate ') {
+    echo 'Hello World'
+  }
+  stage('practicing') {
+    echo 'dadhi'
+  }
+}
